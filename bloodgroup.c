@@ -5,7 +5,7 @@ void main()
   int i,xxx;
   do
   {
-    printf("What is your Name? ");
+    printf("What is your Chicken? ");
     scanf("%s", Name);
     do
     {
@@ -45,4 +45,5 @@ void main()
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
+  printf("Chicken/n");
 }
